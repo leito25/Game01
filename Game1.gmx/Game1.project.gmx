@@ -5,11 +5,22 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprites name="SpaceMenu_Sprites">
+      <sprite>sprites\SpaceMenu_Newgame</sprite>
+      <sprite>sprites\SpaceMenu_Exitgame</sprite>
+      <sprite>sprites\SpaceMenu_Loadgame</sprite>
+      <sprite>sprites\SpaceMenu_Savegame</sprite>
+    </sprites>
+  </sprites>
+  <backgrounds name="background">
+    <backgrounds name="SpaceMenu_BGs">
+      <background>background\SpaceMenuBG</background>
+    </backgrounds>
+  </backgrounds>
   <paths name="paths"/>
   <rooms name="rooms">
-    <room>rooms\GameMain</room>
+    <room>rooms\SpaceGameMain</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
